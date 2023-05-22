@@ -37,7 +37,9 @@ public class Board {
     }
     
     public void placePiece(Piece piece, Position position) {
-        
+        pieces[position.getRow()][position.getColumn()] = piece;
+        // A piece's position is freely accessible since Piece and Position share the same package
+        piece.position = position;
     } 
 
 /*     public Piece removePiece(Piece piece, Position position) {
