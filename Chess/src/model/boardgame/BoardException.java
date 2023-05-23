@@ -1,4 +1,4 @@
-package model.exceptions;
+package model.boardgame;
 
 public class BoardException extends RuntimeException {
 

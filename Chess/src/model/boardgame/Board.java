@@ -1,7 +1,5 @@
 package model.boardgame;
 
-import model.exceptions.BoardException;
-
 public class Board {
     
     private int rows;
