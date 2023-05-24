@@ -1,6 +1,8 @@
 package model.chess;
 
-public class ChessException extends RuntimeException {
+import model.boardgame.BoardException;
+
+public class ChessException extends BoardException {
 
     static final long serialVersionUID = 1L;
 
